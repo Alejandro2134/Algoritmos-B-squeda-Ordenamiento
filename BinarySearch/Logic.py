@@ -3,9 +3,14 @@ Created on 30/11/2017
 
 @author: Tato
 '''
+
+'''
+Función la cual representa el funcionamiento de binarySearch, esta recibe como parametro
+un vector y un una variable n la cual sera el dato a vuscar.
+'''
 def binarysearch (board,n):
     
-    lowerbound = 0
+    lowerbound = 0  
     upperbound = len(board)-1
     index = -1
     
