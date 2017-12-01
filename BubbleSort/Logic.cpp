@@ -59,7 +59,7 @@ int main (){
 	cin >> tam; //El tamaño se guarda en la variable tam.
 	char input[tam]; //Se crea una cadena de caracteres con un tamaño el cual esta guardado en la variable tam.
 	char* ptr; 
-	cout << "Ingrese " << tam << " numeros desordenados y separados por comas:"; // Se pide que se ingrese un char con datos separados por comas
+	cout << "Ingrese " << tam << " numeros desordenados y separados por comas:"; // Se pide que se ingrese una cadena con datos separados por comas
 	cin >> input; //Se guarda en una variable.
 	ptr = strtok(input, ","); //Se llama la función strtok para que divida la la cadena cada vez que se encuentre una coma. 
 
